@@ -1,0 +1,168 @@
+.a{
+  background-color:#ffffff;
+ }
+.m_logo{
+    display:none;
+  }
+  .banner2{
+    display: none;
+    margin-top: 30px;
+  }
+  .e2{
+    display: none;
+  }
+  .ml-2{
+    display: none;
+  }
+  .poja2{
+    display: none;
+    width: 300px;
+  }
+@media(max-width: 700px){
+    .m_logo{
+      display: block;
+    }
+    .w_logo{
+      display: none;
+    }
+   .a{
+      background-color:white;
+     }
+     .banner2{
+       display: block;
+     }
+     .banner1{
+       display: none;
+     }
+     .e2{
+      display: block;
+     }
+     .e1{
+      display: none;
+     }
+     .ml-2{
+      display: block;
+     }
+     .ml-1{
+      display: none;
+     }
+     .poja2{
+      display: block;
+     }
+     .poja1{
+      display: none;
+     }
+
+
+
+   }
+  .h{
+      margin: 13px;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 16px;
+
+}
+.about{
+  width: 100%;
+  margin-top: 128px;
+}
+ .banner-content{
+  line-height: 23px;
+ letter-spacing: 1px;
+ word-spacing: 1px;
+ font-size: 15px;
+ }
+ .edit{
+  margin-left: 22px;
+   margin-top: 30px;
+   height: 415px;
+   box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
+ }
+
+ .object{
+   font-family: "Times New Roman", Times, serif;
+   font-size: 20px;
+   font-weight: bold;
+   color: #ea6e8a;
+ }
+
+ .some{
+    font-family: "Times New Roman", Times, serif;
+   font-size: 30px;
+   font-weight: bold;
+   color: #ea6e8a;
+   text-align: center;
+
+ }
+ h1 b{
+  color:#ea6e8a;
+ }
+
+
+
+
+ .title1{
+   font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 3px;
+
+     }
+
+
+  .title2{
+   font-size: 17px;
+  font-weight: 700;
+ text-transform: uppercase;
+ z-index: 1px;
+
+ }
+ .box-content1{
+  margin-top: -105px;
+   margin-left: 25px;
+  color: #fe6a6a;
+ }
+ .box-content2{
+   margin-top: -105px;
+   margin-left: 15px;
+  color: #fe6a6a;
+ }
+
+ .fa-facebook-f{
+font-size: 18px;
+}
+.fa-instagram{
+font-size: 18px;
+}
+.fa-twitter{
+font-size: 18px;
+}
+hr{
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 1px solid;
+}
+
+.col-md-6 img{
+box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
+}
+
+.content h3{
+color: #747474;
+font-family: 'Raleway', sans-serif;
+
+
+}
+.content p{
+color: #747474;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+
+}
+
+.content{
+margin-top: 30px;
+
+}

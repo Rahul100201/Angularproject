@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I N D R A M DENTAL CARE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script>
+    function itm()
+    {
+      alert("your request is succesfully submitted.");
+    }
+
+  </script>
+</head>
+<body onload="myFunction()">
+  <div id="loading">
+    <!-------------------------------------------------------------------------nav bar start-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top a">
+  <a href="">
+  <img src="/../../assets/image/123.png" class="w_logo" style="width: 50%;" >
+  <img src="/../../assets/image/rah.png" class="m_logo" style="width: 150px;" >
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav text-center ms-auto">
+      <li class="nav-item">
+        <a routerLink="/" style="color: black;" class="nav-link h">HOME</a>
+      </li>
+      <li class="nav-item ">
+        <a  routerLink="/about" style="color: black;" class="nav-link h">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a  routerLink="/service" style="color: black;" class="nav-link h ">SERVICES</a>
+      </li>
+
+       <li class="nav-item">
+        <a  routerLink="/treatment" style="color: black;" class="nav-link h">TREATMENT GALLERY</a>
+      </li>
+       <li class="nav-item">
+        <a  routerLink="/contact" style="color: black;" class="nav-link  h">CONTACT US</a>
+      </li>
+  </ul>
+</div>
+</nav>
+<!---------------------------------------------------------------------------------------------------nav bar end-->
+<router-outlet></router-outlet>

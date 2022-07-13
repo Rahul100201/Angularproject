@@ -1,0 +1,124 @@
+.a{
+  background-color:#ffffff;
+}
+.m_logo{
+display:none;
+}
+.banner2{
+display: none;
+margin-top: 30px;
+}
+.hl-2{
+display: none!important;
+font-size: 18px!important;
+}
+
+@media(max-width: 700px){
+.m_logo{
+  display: block;
+}
+.w_logo{
+  display: none;
+}
+.a{
+  background-color:#3385D9;;
+ }
+ .banner2{
+   display: block;
+ }
+ .banner1{
+   display: none;
+ }
+.hl-1{
+  display: block;
+}
+.hl-2{
+  display: none;
+}
+
+ }
+.h{
+  margin: 13px;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 16px;
+
+}
+.about{
+width: 100%;
+margin-top: 128px;
+}
+
+
+/*li {
+display:inline-block;
+padding:10px;
+}
+
+li:hover {
+color: black;
+border-bottom: 2px solid black;
+}*/
+
+.fa-facebook-f{
+font-size: 18px;
+}
+.fa-instagram{
+font-size: 18px;
+}
+.fa-twitter{
+font-size: 18px;
+}
+
+.col-md-4 a img{
+height: 280px;
+width: 100%!important;
+
+}
+.col-md-4 a{
+font-family: 'Libre Baskerville', serif;
+font-size: 23px;
+text-decoration: none;
+color: black;
+}
+
+.col-md-4{
+margin-top: 15px;
+}
+
+.row{
+padding: 0 70px 0 70px;
+}
+
+.navbar-nav li a{
+color: black!important;
+}
+
+.ml-1{
+
+ letter-spacing: 2px;
+ font-family: 'Libre Baskerville', serif;
+}
+.ml-2{
+
+font-family: 'Libre Baskerville', serif;
+ letter-spacing: 2px;
+ font-size: 24px;
+}
+
+.fa-facebook-f{
+font-size: 18px;
+}
+.fa-instagram{
+font-size: 18px;
+}
+.fa-twitter{
+font-size: 18px;
+}
+
+hr{
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 1px solid;
+}

@@ -1,0 +1,310 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff url('https://www.animatedimages.org/data/media/151/animated-tooth-image-0011.gif')
+  no-repeat center;
+  z-index: 99999;
+}
+
+
+
+.a{
+       background-color:#ffffff;
+
+      }
+ .m_logo{
+       display:none;
+        }
+  .banner2{
+       display: none;
+
+        }
+
+   .main2{
+       display: none;
+       width:300px;
+        }
+        .im2{
+            display: none;
+            width: 300px;
+        }
+        .in2{
+            display: none;
+            width: 300px;
+        }
+
+	@media(max-width: 600px){
+   .m_logo{
+        display: block;
+        }
+    .w_logo{
+        display: none;
+        }
+    .a{
+        background-color:white;
+        }
+    .banner2{
+
+        display: block;
+
+        }
+    .banner1{
+        display: none;
+       }
+    .main2{
+        display: block;
+       }
+    .main1{
+      display: none;
+       }
+       .im2{
+        display: block;
+
+       }
+       .im1{
+        display: none;
+       }
+       .in2{
+        display: block;
+       }
+       .in1{
+        display: none;
+       }
+	    }
+	  .h{
+        margin:13px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+
+      }
+    .botom{
+        margin-top: 95px;
+      }
+    .carousel-caption{
+        color: yellow;
+        position: absolute;
+        top: 27%;
+      }
+
+ .carousel-caption b{
+        font-size: 40px;
+        font-weight: bold;
+      }
+ .home_serbg {
+        float: left;
+        height: 330px;
+        width: 270px;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+
+.home_serimg {
+       float: left;
+       height: 150px;
+       width: 270px;
+      }
+.home_sertxt{
+    float: left;
+    height: auto;
+    width: 270px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #000000;
+    text-align: left;
+      }
+.home_sermore {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    float: left;
+    height: auto;
+    width: 270px;
+      }
+
+a:link {
+
+    text-decoration: none;
+}
+
+#before_after {
+    float: left;
+    height: 160px;
+    width: 550px;
+    border: 1px solid #eeeeee;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.smile{
+    float: left;
+
+    margin-top: 20px;
+}
+
+#weaccommodate {
+    float: left;
+    height: 200px;
+    width: 350px;
+    border: 1px solid #eeeeee;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#weacco_left {
+    float: left;
+    height: 180px;
+    width: 326px;
+}
+
+#weacco_head {
+    background-image: url('/../../assets/image/we.jpg');
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-position: left;
+}
+
+#weacco_txt {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #000000;
+    text-align: left;
+    float: left;
+    height: auto;
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#whychooseus {
+    float: left;
+    height: 180px;
+    width: 350px;
+    border: 1px solid #eeeeee;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#whychoosehead {
+    background-image: url('/../../assets/image/why.jpg');
+    float: left;
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 20px
+
+}
+#whychooseus_txt {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #000000;
+    text-align: left;
+    float: left;
+    height: auto;
+    width: 260px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#home{
+    float: left;
+    min-height: 1440px;
+    width: 340px;
+    margin-left: 1px;
+    background-image: url('/../../assets/image/line.jpg');
+    background-repeat: repeat-y;
+    margin-top: 1px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+#treatment_head {
+    background-image: url(/../../assets/image/thead.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 30px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.treatment_divider {
+    background-image: url(/../../assets/image/divider.jpg);
+    background-repeat: repeat-x;
+    float: left;
+    height: 1px;
+    width: 399px;
+}
+.treatment_menubg {
+    float: left;
+    height: 30px;
+    width: 399px;
+}
+
+.treatment_menutxt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    float: left;
+    height: 22px;
+    width: auto;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.treatment_icon {
+    background-image: url(/../../assets/image/icon.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+
+.mp{
+   margin-top: 20px;
+   border-color: white;
+}
+
+.v{
+   color:  #007bff;;
+
+ }
+
+ .visit{
+   width: 300px;
+ }
+
+ hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid;
+}
+.fa-facebook-f{
+    font-size: 18px;
+}
+.fa-instagram{
+    font-size: 18px;
+}
+.fa-twitter{
+    font-size: 18px;
+}
